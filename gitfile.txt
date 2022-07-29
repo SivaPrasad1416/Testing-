@@ -1,0 +1,6 @@
+git add
+Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
+git commit
+Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users.
+git push
+Pushing is the opposite of fetching (with a few caveats). It lets you move a local branch to another repository, which serves as a convenient way to publish contributions. This is like svn commit, but it sends a series of commits instead of a single changeset.
